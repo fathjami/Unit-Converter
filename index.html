@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Unit Convertor</title>
+    <link rel="stylesheet" href="./index.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">  
+</head>
+<body >
+    <div class="container">
+        <nav class="theme"></nav>
+        <div class=" input-to-convert">
+            <h1 id="title"> Metric/Imperial Unit Conversion</h1>
+            <input type="text" id="to-convert" value="20">
+            <button id="convert-btn">Convert</button>
+        </div>
+        <div class="result">
+        <div  class="metrics-div">
+            <h2>Length (Meter/Feet)</h2>
+            <p id="length" class="converted-result">20 meters = 65.620 feet | 20 feet = 6.096 meters </p>
+        </div>
+        <div  class="metrics-div">
+            <h2>Volume (Liters/Gallons)</h2>
+            <p id="volume" class="converted-result">20 leters = 5.280 gallons | 20 gallons = 75.758 leter </p>
+        </div>
+        <div  class="metrics-div">
+            <h2>Mass (Kilograms/Pounds)</h2>
+            <p id="mass" class="converted-result">20 kilos = 44.080 pounds | 20 pounds = 9.074 kilos</p>
+        </div>
+        </div>
+    </div>
+</body>
+<script src="./index.js"></script>
+</html>
