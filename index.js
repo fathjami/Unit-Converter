@@ -44,7 +44,6 @@ theme.addEventListener('click', function(e){
 
 convertBtn.addEventListener('click', function(){
     num = Number(input.value);
-    console.log(num);
     if(isNaN(num))
         return;
     else{
